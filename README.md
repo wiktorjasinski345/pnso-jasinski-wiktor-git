@@ -1,1 +1,1 @@
-# pnso-jasinski-wiktor-git
+# pnso-jasinski-wiktor-gitnowe zmiany w pliku
