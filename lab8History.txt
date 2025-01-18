@@ -1,0 +1,37 @@
+    1  git clone https://github.com/wiktorjasinski345/pnso-jasinski-wiktor-git.git
+    2  cd ..
+    3  git clone https://github.com/wiktorjasinski345/pnso-jasinski-wiktor-git.git
+    4  cd lab8
+    5  git status
+    6  cd pnso-jasinski-wiktor-git/
+    7  echo "nowe zmiany w pliku" >> README.md 
+    8  touch NewFile.txt
+    9  git status
+   10  git add .
+   11  git status .
+   12  git config --local user.name "WiktorJasiński"
+   13  git config --local user.email  "wiktor.jasinski345@gmail.com"
+   14  git commit -m "My first commit"
+   15  git push
+   16  git pull
+   17  ls .
+   18  git log
+   19  git checkout HEAD~1
+   20  git log
+   21  git checkout -
+   22  git log
+   23  git branch -a
+   24  git checkout -b develop
+   25  git branch -a
+   26  git log .
+   27  echo "Nowy plik na gałęzi brach" >> commit_develop_brach.txt
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "drugi commit"
+   32  git status
+   33  git push
+   34  git push --set-upstream origin develop
+   35  git log
+   36  cd ..
+   37  history >> lab8History.txt 
